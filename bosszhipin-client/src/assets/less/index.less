@@ -1,0 +1,62 @@
+.err_class {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}
+
+// .nav-footer {
+//     position: fixed;
+//     height: 100%;
+//     width: 100%;
+//     top: 0;
+//   }
+
+.am-tab-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%; // 'inherit':高度包裹内容即可，过高会导致个人中心里面的退出登录按钮失效
+    height: inherit;
+}
+
+.sticky-header {
+    /*使标题始终在顶部*/
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.am-card {
+    margin-top: 10px;
+}
+
+// .am-list-content {
+//     // width: fit-content;
+//     // width: -webkit-fit-content;
+//     // width: -moz-fit-content;
+//     //word-wrap: break-word;
+// }
+
+/*消息文本居右*/
+#chat-page .chat-me .am-list-extra {
+    flex-basis: auto;
+    /*宽度包裹内容*/
+}
+
+#chat-page .chat-me .am-list-content {
+
+    padding-right: 37px;
+    text-align: right;
+
+}
+
+
+#chat-page .chat-me .am-list-thumb {
+    position: relative;
+}
+
+#chat-page .chat-me .am-list-thumb {
+    position: absolute;
+    top: center;
+    right: 0px;
+}
